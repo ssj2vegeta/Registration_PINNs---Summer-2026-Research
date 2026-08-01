@@ -4,8 +4,8 @@ This is a research fork of Biomechanics-informed Non-rigid Medical Image Registr
 I am working on this codebase as a research intern under Dr. Yipeng Hu at UCL.
 
 Current contributions:
-- Toy dataset validation using FEniCS-generated sphere deformations 
-  as ground truth for quantitative physics validation
+- Toy dataset validation using sphere deformations by solving physics ODEs
+  as ground truth for physics validation
 - Architecture ablation study — testing robustness of stress and 
   displacement networks to feature dimension changes
 - Extending the physics constraints from linear to nonlinear elasticity
